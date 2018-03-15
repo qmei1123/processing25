@@ -24,7 +24,7 @@ class Ragged {
 //    }
     show() {
         noFill();
-        stroke(255,random(127),random(191));
+        stroke(255,random(100, 175),random(150,175));
         strokeWeight(random(2));
         beginShape();
             vertex(xOne + i, yOne + y);
